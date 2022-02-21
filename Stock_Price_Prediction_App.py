@@ -13,7 +13,7 @@ import sklearn
 import pickle
 
 # loading the pretrained model
-model = pickle.load(open('C:/Users/Toyin/Desktop/Stock_Price_Prediction/model.sav', 'rb'))
+model = pickle.load(open('model.sav', 'rb'))
 
 # function to carry out the prediction
 def prediction(data):
